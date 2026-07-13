@@ -27,7 +27,7 @@ ul {
 ul li a {
     text-decoration: none;
     color: #4B5563;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 500;
 }
 
@@ -183,8 +183,9 @@ ul li a:hover {
     flex-direction: column;
     border: 1px solid #E5E7EB;
     border-radius: 6px;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition:.2s;
 }
 
 .pricing-card h5{
@@ -224,10 +225,10 @@ ul li a:hover {
 .pricing-card button{
     width: 100%;
     margin-top: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 6px;
     border: 1px solid #2952E3;
-    background: #fff;
+    background: #f2f0f0;
     color: #2952E3;
     cursor: pointer;
 }
@@ -313,4 +314,62 @@ ul li a:hover {
     color:#6B7280;
     font-size:14px;
     font-weight:400;
+}
+/* footer */
+
+footer{
+    background:#0F172A;
+    margin-top:100px;
+    padding:40px 0 20px;
+}
+
+.footer-parent{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:25px;
+}
+
+.footer-parent>img{
+    width:150px;
+    display:block;
+}
+
+.social-icon{
+    display:flex;
+    gap:18px;
+}
+
+.social-icon img{
+    width:24px;
+    height:24px;
+    display:block;
+}
+
+footer hr{
+    border:none;
+    border-top:1px solid #334155;
+}
+
+.copyright{
+    text-align:center;
+    padding-top:20px;
+}
+
+.copyright p{
+    color:#94A3B8;
+    font-size:14px;
+}
+.social-icon img{
+    width:24px;
+    height:24px;
+    display:block;
+    transition:.3s;
+}
+
+.social-icon img:hover{
+    transform:scale(1.15);
+}
+.social-icon a{
+    cursor:pointer;
 }
